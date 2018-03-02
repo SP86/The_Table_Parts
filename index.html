@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./scss/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/clockpicker.css">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row list_blocks">
+        <div class="col-12 col-md-6 col-xl-4 mb-3">
+            <div class="row h-100 calendar_wrapper">
+                <div class="col">
+                    <div class="card border-0 rounded-0 h-100">
+                        <div class="card-header border-0 d-flex align-items-center rounded-0">День</div>
+                        <div class="card-body border-0">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold">Понеділок</li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold">Вівторок</li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold">Середа</li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold">Четвер</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 rounded-0 h-100">
+                        <div class="card-header border-0 d-flex align-items-center rounded-0">Від</div>
+                        <div class="card-body border-0">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="start[]" type="text" value="00:00">
+                                </li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="start[]" type="text" value="00:00">
+                                </li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="start[]" type="text" value="00:00">
+                                </li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="start[]" type="text" value="00:00">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 rounded-0 h-100">
+                        <div class="card-header border-0 d-flex align-items-center rounded-0">До</div>
+                        <div class="card-body border-0">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="stop[]" type="text" value="00:00">
+                                </li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="stop[]" type="text" value="00:00">
+                                </li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="stop[]" type="text" value="00:00">
+                                </li>
+                                <li class="list-group-item border-0 d-flex align-items-center font-weight-bold clockpicker">
+                                    <input class="font-weight-bold border-0" name="stop[]" type="text" value="00:00">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-xl-4 mb-3">
+            <div class="card border-0 rounded-0">
+                <div class="card-header border-0 d-flex align-items-center rounded-0">
+                    <span><img src="./img/tables.jpg"></span>Тип закладу
+                </div>
+                <div class="card-body border-0">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                            <label for="customCheck1" class="w-100">Тип1</label>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1"></label>
+                            </div>
+                        </li>
+                        <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                            <label for="customCheck2" class="w-100">Тип2</label>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                <label class="custom-control-label" for="customCheck2"></label>
+                            </div>
+                        </li>
+                        <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                            <label for="customCheck3" class="w-100">Тип3</label>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                <label class="custom-control-label" for="customCheck3"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-xl-4 mb-3">
+            <div class="card border-0 rounded-0">
+                <div class="card-header border-0 d-flex align-items-center rounded-0">
+                    <span><img src="./img/tables.jpg"></span>Кухня
+                </div>
+                <div class="card-body border-0">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                            <label for="customCheck11" class="w-100">Тип11</label>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                <label class="custom-control-label" for="customCheck11"></label>
+                            </div>
+                        </li>
+                        <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                            <label for="customCheck22" class="w-100">Тип22</label>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                <label class="custom-control-label" for="customCheck22"></label>
+                            </div>
+                        </li>
+                        <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                            <label for="customCheck33" class="w-100">Тип33</label>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck33">
+                                <label class="custom-control-label" for="customCheck33"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <select class="form-control my_custom_select">
+            <option selected="selected">Гарячі напої</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="./js/clockpicker.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.clockpicker').clockpicker();
+        });
+    </script>
+</body>
+</html>

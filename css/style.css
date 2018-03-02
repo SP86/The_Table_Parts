@@ -1,0 +1,51 @@
+.test {
+  color: #ff0000; }
+
+/* TUPU ZAKLADY 3 BLOKU */
+.list_blocks .calendar_wrapper .col {
+  padding-right: 5px;
+  padding-left: 5px; }
+.list_blocks .calendar_wrapper .col:nth-child(1) {
+  flex-grow: 1.5; }
+.list_blocks .calendar_wrapper .card-body {
+  background: #f0f5fa; }
+.list_blocks .calendar_wrapper .list-group-item {
+  background: #f0f5fa;
+  color: #3f5f9a;
+  font-size: 18px; }
+  @media (max-width: 768px) {
+    .list_blocks .calendar_wrapper .list-group-item {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .list_blocks .calendar_wrapper .list-group-item {
+      font-size: 14px; } }
+  .list_blocks .calendar_wrapper .list-group-item input {
+    width: 100%;
+    background: transparent;
+    color: #3f5f9a; }
+.list_blocks .card-header {
+  color: #91a4c6;
+  font-size: 18px;
+  min-height: 70px;
+  background: #f0f5fa;
+  padding: 1.375px 1.75rem; }
+  .list_blocks .card-header img {
+    padding-right: 22px; }
+.list_blocks .card-body {
+  padding: 0; }
+  .list_blocks .card-body .list-group-item {
+    padding: .75rem 1.75rem; }
+    .list_blocks .card-body .list-group-item label {
+      margin-bottom: 0; }
+    .list_blocks .card-body .list-group-item:nth-child(2n) {
+      background: #f0f5fa; }
+.list_blocks .card-body.calendar_body {
+  padding: 1.375px 1.75rem; }
+
+/*----------------------*/
+
+/* TUPU ZAKLADY 3 BLOKU */
+
+/*----------------------*/
+
+/*# sourceMappingURL=style.css.map */
