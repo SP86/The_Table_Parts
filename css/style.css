@@ -39,6 +39,8 @@
 .list_blocks .card-body.calendar_body {
   padding: 1.375px 1.75rem; }
 
+/*----------------------*/
+/* custom select */
 .my_custom_select {
   width: auto;
   border-radius: 0;
