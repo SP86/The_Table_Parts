@@ -128,5 +128,27 @@
   .anlitic_data > .card {
     flex: 1 0 50% !important; } }
 /*----------------------*/
+/* CUSTOM MULTI SELECT */
+.custom_multiselect {
+  width: fit-content; }
+  .custom_multiselect .selectBox {
+    position: relative; }
+  .custom_multiselect .selectBox select {
+    width: 100%;
+    color: #97aaca; }
+  .custom_multiselect .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  .custom_multiselect #custom_checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+    border-top: none; }
+    .custom_multiselect #custom_checkboxes .custom-control:nth-child(1) {
+      margin-top: 0 !important; }
+
+/*----------------------*/
 
 /*# sourceMappingURL=style.css.map */

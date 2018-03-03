@@ -205,6 +205,35 @@
         </div>
     </div>
 
+    <div class="row mt-5">
+        <div class="col">
+        <form>
+            <div class="custom_multiselect">
+                <div class="selectBox">
+                    <select class="form-control">
+                        <option>Виберіть місто</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="custom_checkboxes">
+                    <div class="custom-control custom-checkbox m-2">
+                        <input type="checkbox" class="custom-control-input" id="custom_first">
+                        <label class="custom-control-label" for="custom_first">First checkbox</label>
+                    </div>
+                    <div class="custom-control custom-checkbox m-2">
+                        <input type="checkbox" class="custom-control-input" id="custom_second">
+                        <label class="custom-control-label" for="custom_second">Second checkbox</label>
+                    </div>
+                    <div class="custom-control custom-checkbox m-2">
+                        <input type="checkbox" class="custom-control-input" id="custom_third">
+                        <label class="custom-control-label" for="custom_third">Second checkbox</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
 </div>
 
 <!-- Optional JavaScript -->
@@ -216,6 +245,23 @@
     <script>
         $(document).ready(function() {
             $('.clockpicker').clockpicker();
+
+            var expanded = false;
+
+            function showCheckboxes() {
+                var checkboxes = document.getElementById("custom_checkboxes");
+                if (!expanded) {
+                    checkboxes.style.display = "block";
+                    expanded = true;
+                } else {
+                    checkboxes.style.display = "none";
+                    expanded = false;
+                }
+            }
+
+            $('.custom_multiselect .selectBox').on('click',function () {
+                showCheckboxes();
+            });
         });
     </script>
 </body>
