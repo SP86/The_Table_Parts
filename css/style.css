@@ -150,5 +150,33 @@
       margin-top: 0 !important; }
 
 /*----------------------*/
+/* CALENDAR */
+#calendar .month-container {
+  height: auto;
+  margin-bottom: 30px; }
+  @media (min-width: 1200px) {
+    #calendar .month-container {
+      flex-basis: 20%; } }
+  @media (min-width: 1600px) {
+    #calendar .month-container {
+      flex-basis: 16%; } }
+  @media (max-width: 575.98px) {
+    #calendar .month-container {
+      width: 100%;
+      max-width: inherit; } }
+  #calendar .month-container .month th, #calendar .month-container .month td {
+    padding: 3px; }
+  #calendar .month-container .month .month-title {
+    font-size: 1.2rem;
+    text-align: left;
+    background: #f1f6fa;
+    padding: 18px;
+    color: #456e9c; }
+  #calendar .month-container .month .day-header {
+    background: #f1f6fa;
+    /*color: #687794;*/
+    font-weight: normal; }
+
+/*----------------------*/
 
 /*# sourceMappingURL=style.css.map */
